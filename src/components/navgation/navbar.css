@@ -1,0 +1,88 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.Navbarbox{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #3b5998;
+    position: fixed;
+}
+.navbar-left{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding:8px 12px ;
+    flex: 4;
+}
+.profileimage{
+    width: 38px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.navbar-right{
+    flex: 4;
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+}
+.navbaricons{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.navbaricon{
+    margin-left: 10px;
+}
+.icontag{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    color: #771616;
+    position: absolute;
+}
+.navbarlinks{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbarlink{
+
+    margin-left: 15px;
+}
+.navbar-center{
+    flex: 4;
+}
+.logo{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.serchBox{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    border: none;
+}
+.serchicon{
+    margin-left: 10px;
+    
+}
+.searchtext{
+    border: none;
+    width: 80%;
+}
+.searchtext:focus{
+    outline: none;
+}

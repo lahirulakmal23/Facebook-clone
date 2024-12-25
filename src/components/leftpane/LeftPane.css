@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+  
+}
+.leftPane{
+    flex:2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #eee7e7;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #dbd4d4;
+}
+.leftPaneContainer{
+    padding: 20px;
+}
+.leftPaneMenu{
+    list-style: none;
+}
+.leftPaneMenuItem{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.leftPaneIcon{
+ margin-right: 20px;
+}
+
+.page1{
+    width:40px;
+    height: 35px;
+    border-radius: 50%;
+}
+.likePage{
+    font-size: 20px;
+    margin:10px  0;
+    font-weight: bold;
+}
+.pageListItem{
+    margin: 0;
+    padding: 0;
+}
+.pageList{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.pageName{
+    margin-left: 10px;
+}
